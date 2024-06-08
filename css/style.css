@@ -1,0 +1,417 @@
+/* .namecal {
+    margin: auto auto;
+    background-color: black;
+    height: 593px;
+    width: 321px;
+}
+
+.regeltinput {
+    background-color: rgb(0, 0, 0);
+    outline: none;
+    border: none;
+    height: 151px;
+    width: 317px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+
+
+}
+
+.row {
+    margin: 2px 2px;
+}
+
+.button {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    background-color: rgb(41, 40, 40);
+    font-weight: 100;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    margin: 14px 8px;
+}
+
+.redb {
+    background-color: rgb(231, 12, 85)
+}
+
+.wbtn {
+    background-color: rgb(97, 95, 95);
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navebar {
+    height: 80px;
+    background-color: #f5e9eb;
+    z-index: 99999999999;
+
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.navemanue {
+    margin-left: 97px;
+}
+
+.navemanue li a {
+    font-size: 17px;
+    z-index: 48484949;
+}
+
+.button {
+    width: 103px;
+    height: 60px;
+    border-radius: 9px;
+    background-color: red;
+    color: white;
+    margin: 0px 12px;
+    padding: 0px 0px;
+    border: none;
+    font-size: 19px;
+    font-weight: 500;
+
+}
+
+.button2 {
+    width: 103px;
+    height: 60px;
+    border-radius: 9px;
+    background-color: none;
+    color: rgb(0, 0, 0);
+    margin: 0px 12px;
+    padding: 0px 0px;
+    border: none;
+    font-size: 19px;
+    font-weight: 500;
+
+}
+
+.button:hover,
+.page .fastpage .button-land .hoverhold:hover {
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.page {
+    margin-top: 0px;
+    height: 165vh;
+    display: flex;
+    overflow: auto;
+
+
+    display: flex;
+}
+
+.fastpage {
+    width: 370px;
+    height: 577px;
+    background-color: #f5e9eb;
+    box-shadow: 0px 0px 100px 170px #f5e9ebc7;
+    z-index: 1233;
+    height: 805px;
+
+}
+
+.page .img img {
+    width: 1237px;
+    height: 805px;
+
+}
+
+.page .img {
+    position: absolute;
+    right: 0px;
+
+
+}
+
+.stylediv {
+    width: 478px;
+    height: 40px;
+    background-color: none;
+    position: absolute;
+    top: -90px;
+    right: 9px;
+    transform: rotate(3deg);
+    box-shadow: 0px 0px 100px 100px #f5e9ebc7;
+}
+
+.page .fastpage .hading {
+    position: relative;
+    top: 73px;
+    width: 492px;
+    font-family: Lexend Exa;
+    font-size: 70px;
+    font-weight: 600;
+    color: #12141D;
+    /* letter-spacing: -7px; */
+    line-height: 80px;
+    padding: 0px 0px 20px 0px;
+    opacity: 100%;
+}
+
+.page .fastpage .para {
+    position: relative;
+    top: 65px;
+    width: 510px;
+    font-family: Lexend Exa;
+    font-size: 19px;
+    font-weight: 400;
+    color: #57585cde;
+    /* letter-spacing: -7px; */
+    /* line-height: 80px; */
+    padding: 0px 0px 20px 0px;
+    opacity: 100%;
+
+}
+
+.page .fastpage .button-land .buttun-lant-cover {
+    width: 226px;
+    height: 60px;
+    border-radius: 9px;
+    background-color: #ff6c6c;
+    color: white;
+    margin: 0px 2px;
+    padding: 0px 0px;
+    border: none;
+    font-size: 19px;
+    font-weight: 500;
+
+}
+
+.page .fastpage .button-land {
+    width: 39vw;
+    /* background-color: aqua; */
+    position: relative;
+    top: 7vw;
+
+
+
+}
+
+.fastpage .time-numper {
+    position: relative;
+    top: 25vh;
+    display: flex;
+    width: 38vw;
+
+}
+
+.fastpage .time-numper .timenear label {
+    position: relative;
+    top: -39px;
+    right: -60px;
+    font-size: 19px;
+
+}
+
+.fastpage .time-numper .numberenear label {
+    position: relative;
+    top: -39px;
+    right: -195px;
+    font-size: 19px;
+
+}
+
+.fastpage .time-numper .timenear .time {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #000000;
+    color: white;
+    font-size: 20px;
+    padding: 9px 14px;
+
+}
+
+.fastpage .time-numper .numberenear .number {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #000000;
+    color: white;
+    font-size: 20px;
+    padding: 9px 14px;
+    position: relative;
+    right: -125px;
+
+}
+
+.page .fastpage .button-land .nant1 {
+
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    margin-left: 2vw;
+
+
+
+}
+
+@media only screen and (max-width: 1240px) {
+    .page .fastpage .button-land {
+        width: 40vw;
+    }
+
+    
+}
+
+@media only screen and (max-width: 1653px) {
+   
+
+    .page .img {
+        position: absolute;
+       
+    }
+    .page .img img {
+        width: 1432px;
+        height: 805px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .navebar {
+        margin: -8px 0px 0px 0px;
+    }
+
+    .page .img {
+        display: none;
+
+
+    }
+
+    .fastpage {
+        width: 370px;
+        height: 577px;
+        background-color: #f5e9eb;
+        box-shadow: 0px 0px 100px 170px #f5e9ebc7;
+        z-index: 1233;
+        height: 805px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        overflow-x: hidden;
+    }
+    .page .fastpage .button-land {
+        width: 40vw;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .page .fastpage .hading {
+        position: relative;
+        top: 73px;
+        width: 492px;
+        font-family: Lexend Exa;
+        font-size: 70px;
+        font-weight: 600;
+        color: #12141D;
+        /* letter-spacing: -7px; */
+        line-height: 80px;
+        padding: 0px 0px 20px 0px;
+        opacity: 100%;
+        text-align: center;
+    }
+    .page .fastpage .para {
+        position: relative;
+        top: 65px;
+        width: 510px;
+        font-family: Lexend Exa;
+        font-size: 19px;
+        font-weight: 400;
+        color: #57585cde;
+        /* letter-spacing: -7px; */
+        /* line-height: 80px; */
+        padding: 0px 0px 20px 0px;
+        opacity: 100%;
+        text-align: center;
+    }
+    .fastpage .time-numper .numberenear .number {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: #000000;
+        color: white;
+        font-size: 20px;
+        padding: 9px 14px;
+        position: relative;
+        right: 0px;
+    }
+    .fastpage .time-numper .numberenear label {
+        position: relative;
+        top: -39px;
+        right: -65px;
+        font-size: 19px;
+    }
+    .fastpage .time-numper {
+        position: relative;
+        top: 25vh;
+        display: flex;
+        width: 38vw;
+        flex-direction: column;
+    }
+
+
+}
+@media only screen and (max-width: 1024px){
+    .page .img img {
+        width: 805px;
+        height: 805px;
+    }
+
+}
+@media only screen and (max-width: 1217px){
+    .page .fastpage .button-land {
+        width: 50vw;
+    }
+
+}
+@media only screen and (max-width: 990px){
+    .page .subcom {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-between;
+    }
+
+}
+@media only screen and (max-width: 534px){
+
+    .page .fastpage .button-land {
+        width: 78vw;
+        position: relative;
+        top: 81px;
+    }
+}
+@media only screen and (max-width: 692px){
+
+    .page .fastpage .button-land {
+        position: relative;
+        top: 81px;
+       
+    }
+}
+@media only screen and (max-width: 511px){
+    .page .fastpage .hading{
+        font-size: 13vw;
+    }
+    .page .fastpage .para{
+        font-size: 4vw;
+    }
+}
